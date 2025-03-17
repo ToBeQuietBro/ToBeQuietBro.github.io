@@ -155,6 +155,8 @@ nav:
       - AttackVectors101/index.md
       - Page 1: AttackVectors101/page-1.md
       - Page 2: AttackVectors101/page-2.md
+  - 供应链安全: 
+      - supply/index.md
   - 二进制安全:
       - binary/index.md
   - 关于:
