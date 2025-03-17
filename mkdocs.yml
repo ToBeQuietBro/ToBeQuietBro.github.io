@@ -151,8 +151,11 @@ markdown_extensions:
 nav:
   - 主页:
       - index.md
-      - 关于: about.md
-  - Section:
-      - section/index.md
-      - Page 1: section/page-1.md
-      - Page 2: section/page-2.md
+  - 通用漏洞原理:
+      - AttackVectors101/index.md
+      - Page 1: AttackVectors101/page-1.md
+      - Page 2: AttackVectors101/page-2.md
+  - 二进制安全:
+      - binary/index.md
+  - 关于:
+      - about.md
