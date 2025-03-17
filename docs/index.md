@@ -1,67 +1,8 @@
-# Welcome to MkDocs
+欢迎来到我的个人博客！这里主要分享信息安全领域的基础知识、漏洞原理解析及修复方案。无论你是安全新手，还是有一定经验的研究者，希望这些内容能帮助你加深理解，提高安全防护能力。
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+在这里，你可以找到：
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-## 中文搜索测试段落
-
-> [官方中文搜索支持配置](https://squidfunk.github.io/mkdocs-material/blog/2022/05/05/chinese-search-support/?h=search)
-
-这是一个测试段落。
-
-## 安装依赖
-
-```bash
-pip install mkdocs-git-revision-date-localized-plugin
-
-pip install mkdocs-git-committers-plugin-2
-pip install mkdocs-git-authors-plugin
-
-pip install "mkdocs-material[imaging]"
-
-```
-
-## 自动化部署文档
-
-```yml
-# .github/workflows/ci.yml
-name: ci 
-on:
-  push:
-    branches:
-      - master
-      - main
-      - doc
-permissions:
-  contents: write
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: ["3.10"]
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
-        with:
-          python-version: 3.x
-      - run: pip install mkdocs-material
-      - run: pip install mkdocs-minify-plugin
-      - run: pip install mkdocs-git-revision-date-localized-plugin
-      - run: pip install pip install mkdocs-git-committers-plugin-2
-      - run: pip install mkdocs-git-authors-plugin
-      - run: mkdocs gh-deploy --force
-```
+- 安全基础：涵盖网络安全、系统安全、Web 安全等基础知识。
+- 漏洞分析：深入解析漏洞成因、利用方式及修复方案。
+- 工具与实践：推荐和使用各种安全工具，结合实际案例进行学习。
+- 希望这个博客能成为你的信息安全学习之旅中的一站。欢迎交流探讨，共同进步！

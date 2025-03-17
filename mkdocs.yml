@@ -1,14 +1,17 @@
-site_name: 项目配套文档
+site_name: 信息安全老菜鸟的博客
 site_url: https://github.com/ToBeQuietBro/ToBeQuietBro.github.io
 site_author: G3G4X5X6
 site_description: >-
-  站点描述: Create a branded static site from a set of Markdown files to host the
-  documentation of your Open Source or commercial project
+  站点描述: 
+  安全基础：涵盖网络安全、系统安全、Web 安全等基础知识。
+  漏洞分析：深入解析漏洞成因、利用方式及修复方案。
+  工具与实践：推荐和使用各种安全工具，结合实际案例进行学习。
+  希望这个博客能成为你的信息安全学习之旅中的一站。欢迎交流探讨，共同进步！
 
 # Repository
 repo_url: https://github.com/ToBeQuietBro/ToBeQuietBro.github.io
 repo_name: ToBeQuietBro/ToBeQuietBro.github.io
-edit_uri: edit/doc/docs/
+edit_uri: edit/main/docs
 
 theme:
   name: material
@@ -146,9 +149,9 @@ markdown_extensions:
   - pymdownx.tilde
 
 nav:
-  - Welcome to MkDocs:
+  - 主页:
       - index.md
-      - 支持特性: support.md
+      - 关于: about.md
   - Section:
       - section/index.md
       - Page 1: section/page-1.md
